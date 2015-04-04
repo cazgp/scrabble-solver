@@ -116,7 +116,7 @@ else:
     if args.contains:
         query = contains(args.contains)
     elif args.starts:
-        query = starts(args.contains)
+        query = starts(args.starts)
     elif args.ends:
         query = ends(args.ends)
 
